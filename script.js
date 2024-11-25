@@ -5,7 +5,7 @@ const startDate = new Date();
 const daysToAdd = 10;
 
 // محاسبه تاریخ پایان
-const endDate = new Date(startDate.getTime() + daysToAdd * 24 * 60 * 60 * 1000);
+const endDate = new Date("2024-12-07");
 
 // به‌روزرسانی تایمر
 function updateCountdown() {
